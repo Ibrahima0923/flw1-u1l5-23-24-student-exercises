@@ -6,9 +6,12 @@ function quizGame() {
     //  - Else, alert "Wrong!"
     //  - Note: here's an example of what using an alert looks like: alert("Correct!")
 
-
-    
-   
+  if (answer1 === "paris") {
+  alert("Correct")
+  } else {
+    alert( "Wrong!");
+  }
+  
     let answer2 = parseInt(prompt("How many legs does an insect have? (Enter a number)"));
 
     // 2. Write a conditonal statement that checks if answer2 is 6.
@@ -16,7 +19,12 @@ function quizGame() {
     //  - Else if answer2 is less than 6, alert "Too low! Insects have 6 legs."
     //  - Else, alert "Too high! Insects have 6 legs."
    
-
+if (answer2 == 2){
+  alert("correct")
+}
+  else {
+    alse("wrong!");
+  }
 
 
 
